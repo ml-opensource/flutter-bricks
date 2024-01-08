@@ -11,7 +11,7 @@ pubspec.lock
 # Locaked Mason files
 mason-lock.json
 
-lib/
+/lib/
 
 build/
 
