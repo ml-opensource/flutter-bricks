@@ -12,10 +12,20 @@ bricks:
   #     url: https://github.com/monstar-lab-oss/flutter-bricks.git
   #     path: bricks/usecase
   
-  usecase:
-    path: bricks/usecase
+  # serice brick
   service:
-    path: bricks/service
-  feature:
-    path: bricks/feature
+    git:
+      url: https://github.com/monstar-lab-oss/flutter-bricks.git
+      path: bricks/service
 
+  # usecase brick
+  usecase:
+    git:
+      url: https://github.com/monstar-lab-oss/flutter-bricks.git
+      path: bricks/usecase
+
+  # feature brick    
+  feature:
+    git:
+      url: https://github.com/monstar-lab-oss/flutter-bricks.git
+      path: bricks/feature
