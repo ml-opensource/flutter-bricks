@@ -11,10 +11,11 @@ Will Create a feature in your project
 ```sh
 |-- lib
  |-- presentation
-    |-- FEATURE_NAME
-        |-- cubit
-        |-- ui
-        |-- FEATURE_NAME_screen.dart
+    |-- feature
+        |-- FEATURE_NAME
+            |-- cubit
+            |-- ui
+            |-- FEATURE_NAME_screen.dart
 ```
 
 if you want to make a new feature in your project —
