@@ -43,14 +43,21 @@ In your project include these in `mason.yaml`.
 
 ```sh
 bricks:
-  widget:
-    service:
+  # serice brick
+  service:
+    git:
       url: https://github.com/monstar-lab-oss/flutter-bricks.git
       path: bricks/service
-    usecase:
+
+  # usecase brick
+  usecase:
+    git:
       url: https://github.com/monstar-lab-oss/flutter-bricks.git
       path: bricks/usecase
-    feature:
+
+  # feature brick    
+  feature:
+    git:
       url: https://github.com/monstar-lab-oss/flutter-bricks.git
       path: bricks/feature
 ```
