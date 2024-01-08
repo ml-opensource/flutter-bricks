@@ -1,0 +1,20 @@
+# Files and directories created by pub
+.dart_tool/
+.packages
+
+# Remove the following pattern if you wish to check in your lock file
+pubspec.lock
+
+# Local Mason Files
+.mason/
+
+# Locaked Mason files
+mason-lock.json
+
+lib/
+
+build/
+
+# IntelliJ, Android Studio and others
+.idea/
+.DS_Store
