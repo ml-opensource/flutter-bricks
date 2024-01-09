@@ -97,7 +97,5 @@ Also, make sure you add these lines to your `.gitignore` file if you are using g
 ```sh
 # Local Mason Files
 .mason/
-
-# Locaked Mason files
 mason-lock.json
 ```
