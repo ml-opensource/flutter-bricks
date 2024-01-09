@@ -79,19 +79,20 @@ If you have `mason.yaml` in place just run the following commands to start using
 ```sh
 # 🎯 To get all mason bricks from mason.yaml
 mason get
-...
 ```
 
 Now you are ready to go! Each time you modify this `brick.yaml`, we need to run this `mason get` command.
 
-For example, if you want to make service classed in your project —
+For example, if you want to make a feature in your project —
 
 ```sh
-# 🚀 To make service from mason brick template
-mason make service
-...
+# 🚀 To make a feature from mason brick template
+mason make feature
 ```
 
+<img src="assets/terminal_typing.gif" alt="Making a feature GIF"/>
+
+<br/>
 Also, make sure you add these lines to your `.gitignore` file if you are using git in your project.
 
 ```sh
