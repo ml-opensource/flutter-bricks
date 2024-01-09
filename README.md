@@ -43,22 +43,22 @@ In your project include these in `mason.yaml`.
 
 ```sh
 bricks:
-  # serice brick
+  # service brick
   service:
     git:
-      url: https://github.com/monstar-lab-oss/flutter-bricks.git
+      url: "https://github.com/monstar-lab-oss/flutter-bricks.git"
       path: bricks/service
 
   # usecase brick
   usecase:
     git:
-      url: https://github.com/monstar-lab-oss/flutter-bricks.git
+      url: "https://github.com/monstar-lab-oss/flutter-bricks.git"
       path: bricks/usecase
 
-  # feature brick    
+  # feature brick
   feature:
     git:
-      url: https://github.com/monstar-lab-oss/flutter-bricks.git
+      url: "https://github.com/monstar-lab-oss/flutter-bricks.git"
       path: bricks/feature
 ```
 
@@ -69,6 +69,8 @@ bricks:
 | `service` | Generate a new service (data and domain)  |
 | `usecase` | Generate a new usecase (domain)           |
 | `feature` | Generate a new feature (ui, cubits, etc.) |
+
+> _⚠️ You must have Dart 3.0 or up to use new language features._
 
 ## Usage
 
