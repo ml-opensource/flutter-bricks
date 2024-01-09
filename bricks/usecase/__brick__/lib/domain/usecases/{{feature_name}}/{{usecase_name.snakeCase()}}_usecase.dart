@@ -1,7 +1,7 @@
 {{# is_using_injectable }}import 'package:injectable/injectable.dart';{{/ is_using_injectable}}
 
 {{# is_using_injectable }}@injectable{{/ is_using_injectable}}
-class {{usecase_name.pascalCase()}}UseCase {
+final class {{usecase_name.pascalCase()}}UseCase {
 {{#services.0}}
 {{usecase_name.pascalCase()}}UseCase({
 {{#services}}   required this.{{..camelCase()}},

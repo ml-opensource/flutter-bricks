@@ -1,4 +1,4 @@
-abstract class {{service_name.pascalCase()}}Service {
+abstract interface class {{service_name.pascalCase()}}Service {
   // TODO: Change the method name according to your need
   void doSomething();
 

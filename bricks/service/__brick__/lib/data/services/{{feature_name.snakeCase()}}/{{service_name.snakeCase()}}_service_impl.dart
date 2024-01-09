@@ -3,7 +3,7 @@ import '../../../domain/services/{{feature_name.snakeCase()}}/{{service_name.sna
 
 
 {{# is_using_injectable }}@Injectable(as: {{service_name.pascalCase()}}Service){{/ is_using_injectable}}
-class {{service_name.pascalCase()}}ServiceImpl extends {{service_name.pascalCase()}}Service {
+final class {{service_name.pascalCase()}}ServiceImpl implements {{service_name.pascalCase()}}Service {
   // TODO: Change method name according to the abstract class
   @override
   void doSomething() {

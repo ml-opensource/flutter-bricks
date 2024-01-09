@@ -6,7 +6,7 @@ part '{{feature_name.snakeCase()}}_cubit.freezed.dart';
 part '{{feature_name.snakeCase()}}_state.dart';
 
 {{#is_using_injectable}}@injectable{{/is_using_injectable}}
-class {{feature_name.pascalCase()}}Cubit extends Cubit<{{feature_name.pascalCase()}}State> {
+final class {{feature_name.pascalCase()}}Cubit extends Cubit<{{feature_name.pascalCase()}}State> {
   {{feature_name.pascalCase()}}Cubit() : super({{feature_name.pascalCase()}}State.initial());
 
   Future<void> init() async {

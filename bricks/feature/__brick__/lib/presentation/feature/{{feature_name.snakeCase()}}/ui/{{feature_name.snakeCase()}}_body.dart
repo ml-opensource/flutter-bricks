@@ -5,8 +5,8 @@ class {{feature_name.pascalCase()}}Body extends StatelessWidget {
 
   @override
   Widget build(BuildContext context){
-    return Center(
-      child: Text("Find me on {{feature_name.pascalCase()}}Body"),
+    return const Center(
+      child: Text('Find me on {{feature_name.pascalCase()}}Body'),
     );
   }
 }
