@@ -1,3 +1,7 @@
 # 0.1.0+1
 
-- initial release.
+- Initial release.
+
+# 0.1.0+2
+
+- Added class modifiers.

@@ -93,6 +93,7 @@ mason make feature
 <img src="assets/terminal_typing.gif" alt="Making a feature GIF"/>
 
 <br/>
+
 Also, make sure you add these lines to your `.gitignore` file if you are using git in your project.
 
 ```sh
