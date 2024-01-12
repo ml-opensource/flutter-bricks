@@ -11,7 +11,7 @@ Will Create a feature in your project
 ```sh
 |-- lib
  |-- presentation
-    |-- feature
+    |-- features
         |-- FEATURE_NAME
             |-- cubit
             |-- ui
@@ -21,7 +21,7 @@ Will Create a feature in your project
 if you want to make a new feature in your project —
 
 ```sh
-# 🚀 To make feature from mason brick template
+# 🚀 To make a feature from mason brick template
 mason make feature
 ...
 ```
@@ -37,3 +37,5 @@ mason-lock.json
 ```
 
 _**Note:** You may need to run build_runner to resolve file generation related error_
+
+💡 To set up this brick in your project, follow the instructions described [here](../../README.md#installation).

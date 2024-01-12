@@ -21,7 +21,7 @@ Will Create the service classes in your project
 if you want to make a new service in your project —
 
 ```sh
-# 🚀 To make service from mason brick template
+# 🚀 To create a service from mason brick template
 mason make service
 ...
 ```
@@ -37,3 +37,5 @@ mason-lock.json
 ```
 
 _**Note:** You may need to run build_runner to resolve file generation related error_
+
+💡 To set up this brick in your project, follow the instructions described [here](../../README.md#installation).

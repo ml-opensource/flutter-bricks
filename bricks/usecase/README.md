@@ -11,16 +11,16 @@ Will Create a usecase class in your project
 ```sh
 |-- lib
     |-- domain
-        |-- USECASE_NAME
+        |-- use_cases
           |-- FEATURE_NAME
-              |-- USECASE_NAME_usecase.dart
+              |-- USE_CASE_NAME_use_case.dart
 ```
 
 if you want to make a new feature in your project —
 
 ```sh
-# 🚀 To make feature from mason brick template
-mason make feature
+# 🚀 To create a new use case from mason brick template
+mason make usecase
 ...
 ```
 
@@ -35,3 +35,5 @@ mason-lock.json
 ```
 
 _**Note:** You may need to run build_runner to resolve file generation related error_
+
+💡 To set up this brick in your project, follow the instructions described [here](../../README.md#installation).
