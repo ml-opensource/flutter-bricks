@@ -3,6 +3,7 @@
 {{#is_using_cubit}}import 'package:flutter_bloc/flutter_bloc.dart';{{/is_using_cubit}}
 import 'package:flutter/material.dart';
 import './ui/{{feature_name.snakeCase()}}_body.dart';
+import '../../../injection/injector.dart';
 
 {{#is_using_auto_route}}@RoutePage(){{/is_using_auto_route}}
 class {{feature_name.pascalCase()}}Screen extends StatelessWidget {

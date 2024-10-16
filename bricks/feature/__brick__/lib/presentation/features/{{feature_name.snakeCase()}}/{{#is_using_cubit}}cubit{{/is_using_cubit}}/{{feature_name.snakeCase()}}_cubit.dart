@@ -1,9 +1,7 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:freezed_annotation/freezed_annotation.dart';
+import './{{feature_name.snakeCase()}}_state.dart';
 {{#is_using_injectable}}import 'package:injectable/injectable.dart';{{/is_using_injectable}}
 
-part '{{feature_name.snakeCase()}}_cubit.freezed.dart';
-part '{{feature_name.snakeCase()}}_state.dart';
 
 {{#is_using_injectable}}@injectable{{/is_using_injectable}}
 final class {{feature_name.pascalCase()}}Cubit extends Cubit<{{feature_name.pascalCase()}}State> {
