@@ -1,5 +1,5 @@
 name: feature
-description: A new brick created with the Mason CLI.
+description: A brick to create a feature.
 
 # The following defines the brick repository url.
 # Uncomment and update the following line before publishing the brick.
@@ -8,7 +8,7 @@ description: A new brick created with the Mason CLI.
 # The following defines the version and build number for your brick.
 # A version number is three numbers separated by dots, like 1.2.34
 # followed by an optional build number (separated by a +).
-version: 0.1.0+3
+version: 0.2.0+4
 
 # The following defines the environment for the current brick.
 # It includes the version of mason that the brick requires.
@@ -31,7 +31,7 @@ vars:
     description: Provide the name of the feature
     default: Ml
     prompt: What is the feature name?
-    
+
   is_using_auto_route:
     type: boolean
     description: Select if your project is using Auto Route package for navigation.
@@ -49,6 +49,3 @@ vars:
     description: Select if you want to use @injectable
     default: true
     prompt: Use @injectable()?
-
-
-

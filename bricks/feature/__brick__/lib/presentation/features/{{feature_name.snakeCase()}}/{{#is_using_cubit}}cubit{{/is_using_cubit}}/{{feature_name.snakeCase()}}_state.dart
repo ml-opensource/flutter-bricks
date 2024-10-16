@@ -1,4 +1,5 @@
-part of '{{feature_name.snakeCase()}}_cubit.dart';
+import 'package:freezed_annotation/freezed_annotation.dart';
+part '{{feature_name.snakeCase()}}_state.freezed.dart';
 
 @freezed
 class {{feature_name.pascalCase()}}State with _${{feature_name.pascalCase()}}State {
